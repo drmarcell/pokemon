@@ -181,7 +181,7 @@ const Home = ({ navigation }: HomeProps): JSX.Element => {
                 onChangeText={setSearchfield}
                 value={searchfield}
                 placeholder="search pokemon by name"
-                keyboardType="numeric"
+                keyboardType="default"
               />
             </View>
             <View style={styles.barContainer}>
